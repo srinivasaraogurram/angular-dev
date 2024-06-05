@@ -101,3 +101,12 @@ ng serve
 ![alt text](image-11.png)
 
 ![alt text](image-12.png)
+
+when you run from gitpod, one may get invalid host.
+Please do following changes:
+
+In angular.json, add the following under architect -> serve -> options
+
+"disableHostCheck": true
+
+![alt text](image-13.png)
