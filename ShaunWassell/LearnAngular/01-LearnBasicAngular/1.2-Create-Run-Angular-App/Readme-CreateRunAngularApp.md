@@ -93,3 +93,11 @@ Move into the directory where the app is created
 cd  my-app
 
 ![alt text](image-10.png)
+
+How to run angular app
+```
+ng serve
+```
+![alt text](image-11.png)
+
+![alt text](image-12.png)
