@@ -110,3 +110,37 @@ In angular.json, add the following under architect -> serve -> options
 "disableHostCheck": true
 
 ![alt text](image-13.png)
+
+Angular folder structure
+
+e2e folder - end to end testing
+src - main folder for all the components
+src/app - where all the components are created
+app-components
+ app-routing.modules.ts
+ app.component.css
+ app.component.html
+ app.component.spec.ts
+ app.component.ts
+ app.module.ts
+
+ every component in angular as 3 different files
+ app.component.ts - typescript file
+ app.component.html - contains the dom structure of the component
+ app.component.css - contains the component specific styling
+
+app.component.spec.ts - test cases for the component
+app-routing.modules.ts - will contain the routing logic
+
+ app.module.ts - import a modules in to angular applications, we need to add the components
+ 
+   
+src/assets - where all the images are created
+src/main.ts - where the angular applications start rendering
+src/index.html - root div - where angular application is loaded
+src/polyfills.ts - where any packages are installed for browser compatibility
+src/styles.css - global styles
+test.ts - all the test cases are maintained
+
+
+
