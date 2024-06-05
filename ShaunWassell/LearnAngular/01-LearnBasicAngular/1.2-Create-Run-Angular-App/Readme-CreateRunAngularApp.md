@@ -79,3 +79,17 @@ Do you need strict Mode : y
 Would you like to add Angular routing? (y/N) : y
 Which stylesheet format would you like to use? css 
 
+Once the angular is installed, to verify he app, use command
+```
+ng --version
+```
+which will display the Angular Cli with installed components
+
+![Components from local dev](image-8.png)
+
+![Refer from Shaun ws](image-9.png)
+Move into the directory where the app is created
+```
+cd  my-app
+
+![alt text](image-10.png)
