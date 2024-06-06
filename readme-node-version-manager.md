@@ -23,15 +23,20 @@ nvm install latest
 ```
 
 Step 6: to install specific version of node
-
-```
+Syntax:
 nvm install vX.Y.Z
-```
 ```
 nvm install v14.15.1
 ```
-
-Install angular
+Step 6.1:Verify Node Version; to check if v14.15.1; if not use the the command nvm use v14.15.1 to set the node version
+```
+node -v
+```
+Step 6.2: set node version to v14.15.1
+```
+nvm use v14.15.1
+```
+Step 6.3 Install angular
 ```
 npm install -g @angular/cli@11.2.5
 ```
